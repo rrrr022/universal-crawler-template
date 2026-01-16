@@ -1,0 +1,42 @@
+# Example: 139 Wastewater Technologies Crawler
+project_name: "Wastewater Technology Research"
+output_dir: "D:\\CrawlData"
+
+# 139 technologies from EPA Lead Intelligence Platform
+topics:
+  - id: "001"
+    name: "Bar Screens (Coarse)"
+    category: "Primary Treatment"
+    keywords: ["coarse bar screen", "bar screen design", "manual bar screen"]
+    
+  - id: "002"
+    name: "Bar Screens (Fine)"
+    category: "Primary Treatment"
+    keywords: ["fine bar screen", "mechanical bar screen", "perforated plate screens"]
+
+  - id: "003"
+    name: "Microst rains"
+    category: "Primary Treatment"
+    keywords: ["microstrain filter", "rotary microscreen", "drum screen"]
+    
+  # Add remaining 136 technologies...
+
+# Crawler settings
+concurrency: 100
+timeout: 30
+rate_limit: 0.5
+max_retries: 3
+
+# Discovery settings
+priority_domains:
+  - "epa.gov"
+  - "usgs.gov"
+  - "awwa.org"
+  - "wef.org"
+  - "sciencedirect.com"
+  - "springer.com"
+  
+exclude_domains:
+  - "facebook.com"
+  - "twitter.com"
+  - "youtube.com"

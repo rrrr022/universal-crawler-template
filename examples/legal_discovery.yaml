@@ -1,0 +1,76 @@
+# Legal Discovery & Case Law Crawler Configuration
+# Target: Court filings, case law, regulatory compliance, legal research
+
+project_name: "Legal Intelligence Platform"
+output_dir: "D:\\Legal_Data"  # Adjust to your path
+
+topics:
+  - id: "001"
+    name: "Contract Law"
+    keywords:
+      - "breach of contract elements"
+      - "UCC 2-207 battle of forms"
+      - "contract formation requirements"
+      - "statute of frauds exception"
+      - "promissory estoppel doctrine"
+
+  - id: "002"
+    name: "Securities Litigation"
+    keywords:
+      - "Rule 10b-5 securities fraud"
+      - "class action certification"
+      - "scienter requirement"
+      - "loss causation standard"
+      - "PSLRA safe harbor"
+
+  - id: "003"
+    name: "Employment Law"
+    keywords:
+      - "wrongful termination claims"
+      - "ADA reasonable accommodation"
+      - "FMLA leave entitlement"
+      - "Title VII discrimination"
+      - "FLSA overtime exemptions"
+
+  - id: "004"
+    name: "Intellectual Property"
+    keywords:
+      - "patent infringement analysis"
+      - "trademark likelihood confusion"
+      - "copyright fair use defense"
+      - "trade secret misappropriation"
+      - "PTAB inter partes review"
+
+  - id: "005"
+    name: "Corporate Governance"
+    keywords:
+      - "fiduciary duty breach"
+      - "shareholder derivative action"
+      - "business judgment rule"
+      - "entire fairness standard"
+      - "proxy statement disclosure"
+
+# High-authority legal domains
+priority_domains:
+  - "law.cornell.edu"
+  - "courtlistener.com"
+  - "justia.com"
+  - "casetext.com"
+  - "law.berkeley.edu"
+  - "supremecourt.gov"
+  - "ca9.uscourts.gov"
+  - "dcd.uscourts.gov"
+
+# Conservative settings for legal sites (slower but respectful)
+concurrency: 50   # Lower to avoid rate limiting
+timeout: 45       # Longer timeout for complex pages
+rate_limit: 1.0   # 1 second delay per domain
+
+# Content filtering
+min_content_length: 1000  # Legal docs are typically longer
+max_content_length: 20971520  # 20MB for large filings
+
+allowed_content_types:
+  - "text/html"
+  - "application/pdf"
+  - "text/plain"

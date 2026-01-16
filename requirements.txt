@@ -1,0 +1,15 @@
+# Universal Crawler Template
+aiohttp>=3.13.2
+aiofiles>=25.1.0
+beautifulsoup4>=4.14.3
+lxml>=6.0.2
+duckduckgo-search>=8.1.1  # Will be renamed to ddgs soon
+sentence-transformers>=3.3.1  # For RAG embeddings
+faiss-cpu>=1.9.0  # Vector similarity search (use faiss-gpu for CUDA)
+rank-bm25>=0.2.2  # Keyword search
+torch>=2.5.1  # PyTorch for GPU acceleration
+numpy>=2.2.1
+pyyaml>=6.0.2
+python-dotenv>=1.0.1
+tqdm>=4.67.1
+requests>=2.32.3

@@ -1,0 +1,78 @@
+# Pharmaceutical Research & FDA Compliance Crawler Configuration
+# Target: Clinical trials, drug approvals, manufacturing compliance, adverse events
+
+project_name: "Pharma Research Intelligence"
+output_dir: "D:\\Pharma_Data"  # Adjust to your path
+
+topics:
+  - id: "001"
+    name: "Clinical Trials"
+    keywords:
+      - "phase 3 clinical trial"
+      - "FDA approval process"
+      - "clinical endpoint definition"
+      - "patient enrollment criteria"
+      - "trial protocol design"
+
+  - id: "002"
+    name: "Drug Safety"
+    keywords:
+      - "adverse event reporting"
+      - "pharmacovigilance system"
+      - "drug recall procedure"
+      - "REMS program"
+      - "post-market surveillance"
+
+  - id: "003"
+    name: "Manufacturing Compliance"
+    keywords:
+      - "GMP compliance requirements"
+      - "FDA Form 483 response"
+      - "warning letter remediation"
+      - "manufacturing deviation investigation"
+      - "validation protocol"
+
+  - id: "004"
+    name: "Drug Development"
+    keywords:
+      - "IND application requirements"
+      - "bioequivalence study"
+      - "stability testing protocol"
+      - "analytical method validation"
+      - "CMC section guidance"
+
+  - id: "005"
+    name: "Regulatory Submissions"
+    keywords:
+      - "NDA submission requirements"
+      - "BLA application process"
+      - "ANDA bioequivalence"
+      - "orphan drug designation"
+      - "accelerated approval pathway"
+
+# High-authority domains for pharmaceutical research
+priority_domains:
+  - "fda.gov"
+  - "clinicaltrials.gov"
+  - "ema.europa.eu"
+  - "pubmed.ncbi.nlm.nih.gov"
+  - "ich.org"
+  - "pharmaceuticalcommerce.com"
+  - "raps.org"
+  - "pharmtech.com"
+
+# Performance settings
+concurrency: 100  # Simultaneous requests
+timeout: 30       # Seconds per request
+rate_limit: 0.5   # Seconds between domain requests
+
+# Content filtering
+min_content_length: 500
+max_content_length: 10485760  # 10MB
+
+allowed_content_types:
+  - "text/html"
+  - "application/pdf"
+  - "text/plain"
+  - "application/msword"
+  - "application/vnd.openxmlformats-officedocument.wordprocessingml.document"

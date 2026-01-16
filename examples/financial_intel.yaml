@@ -1,0 +1,78 @@
+# Financial Intelligence & SEC Filings Crawler Configuration
+# Target: SEC filings, earnings reports, M&A analysis, market intelligence
+
+project_name: "Financial Intelligence Crawler"
+output_dir: "D:\\Finance_Data"  # Adjust to your path
+
+topics:
+  - id: "001"
+    name: "10-K Annual Reports"
+    keywords:
+      - "Form 10-K risk factors"
+      - "annual report MD&A"
+      - "consolidated financial statements"
+      - "management discussion analysis"
+      - "business description SEC"
+
+  - id: "002"
+    name: "Mergers & Acquisitions"
+    keywords:
+      - "merger agreement terms"
+      - "acquisition purchase price"
+      - "tender offer documents"
+      - "proxy statement merger"
+      - "Form S-4 registration"
+
+  - id: "003"
+    name: "Earnings Analysis"
+    keywords:
+      - "earnings call transcript"
+      - "quarterly results 10-Q"
+      - "forward guidance statement"
+      - "non-GAAP reconciliation"
+      - "analyst conference call"
+
+  - id: "004"
+    name: "Executive Compensation"
+    keywords:
+      - "DEF 14A proxy statement"
+      - "executive compensation disclosure"
+      - "equity award grant"
+      - "CEO pay ratio"
+      - "compensation discussion analysis"
+
+  - id: "005"
+    name: "Regulatory Filings"
+    keywords:
+      - "Form 8-K current report"
+      - "insider trading Form 4"
+      - "beneficial ownership 13D"
+      - "tender offer Schedule TO"
+      - "registration statement S-1"
+
+# High-authority financial domains
+priority_domains:
+  - "sec.gov"
+  - "edgar.sec.gov"
+  - "investor.nasdaq.com"
+  - "ir.nyse.com"
+  - "sec.report"
+  - "yahoo.finance.com"
+  - "bloomberg.com"
+  - "marketwatch.com"
+
+# Moderate settings (SEC is public but high traffic)
+concurrency: 75
+timeout: 30
+rate_limit: 0.75  # Be respectful to SEC servers
+
+# Content filtering
+min_content_length: 500
+max_content_length: 52428800  # 50MB for large 10-K filings
+
+allowed_content_types:
+  - "text/html"
+  - "application/pdf"
+  - "text/plain"
+  - "application/xml"
+  - "text/xml"
