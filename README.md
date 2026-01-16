@@ -431,8 +431,8 @@ Full documentation: [docs/](docs/)
 
 ## 📧 Contact
 
-- GitHub: [@rrrr022](https://github.com/YOUR_USERNAME)
-- Issues: [Report bugs](https://github.com/YOUR_USERNAME/universal-crawler-template/issues)
+- GitHub: [@rrrr022](https://github.com/rrrr022)
+- Issues: [Report bugs](https://github.com/rrrr022/universal-crawler-template/issues)
 
 ---
 
