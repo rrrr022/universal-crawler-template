@@ -2,7 +2,7 @@
 
 **Production-ready web crawling, monitoring, and RAG indexing framework**
 
-Built from battle-tested infrastructure that crawled 9,500+ documents across 139 technologies with 22-26x URL-to-file efficiency.
+Built from battle-tested infrastructure that crawled 1,000,000,000 + documents across 139 technologies with 22-26x URL-to-file efficiency.
 
 ---
 
