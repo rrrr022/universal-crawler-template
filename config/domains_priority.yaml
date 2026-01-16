@@ -1,0 +1,17 @@
+priority_domains:
+  - "arxiv.org"
+  - "nature.com"
+  - "sciencedirect.com"
+  - "springer.com"
+  - "ieee.org"
+  - "acm.org"
+
+exclude_domains:
+  - "facebook.com"
+  - "twitter.com"
+  - "youtube.com"
+  - "instagram.com"
+  - "linkedin.com"
+  - "reddit.com"
+  - "pinterest.com"
+  - "tiktok.com"

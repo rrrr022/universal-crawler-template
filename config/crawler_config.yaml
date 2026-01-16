@@ -1,0 +1,32 @@
+project_name: "Universal Crawler Template"
+output_dir: "crawl_data"
+
+concurrency: 100
+timeout: 30
+rate_limit: 0.5
+max_retries: 3
+backoff_factor: 2
+log_level: "INFO"
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+discovery:
+  max_results_per_query: 20
+  max_queries_per_topic: 8
+  enable_bing: true
+  enable_scholar: false
+  max_concurrent: 10
+  per_query_delay_seconds: 2
+
+topics:
+  - id: 1
+    name: "Machine Learning"
+    keywords:
+      - "neural networks"
+      - "deep learning"
+      - "model architecture"
+  - id: 2
+    name: "Data Engineering"
+    keywords:
+      - "data pipelines"
+      - "ETL"
+      - "stream processing"
