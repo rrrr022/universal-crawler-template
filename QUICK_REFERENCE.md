@@ -39,7 +39,7 @@ universal_crawler_template/
 
 ## 📊 Proven Performance Metrics
 
-**From Real Production Use (Your EPA Project)**:
+**From Real Production Use (Production Project)**:
 - ✅ **9,506 files** downloaded from 368 URLs
 - ✅ **22-26x efficiency** (URL-to-file multiplier)
 - ✅ **100+ req/s** crawl speed
@@ -83,7 +83,7 @@ This will:
 # Name: universal-crawler-template
 
 # Then push:
-git remote add origin https://github.com/YOUR_USERNAME/universal-crawler-template.git
+git remote add origin https://github.com/rrrr022/universal-crawler-template.git
 git branch -M main
 git push -u origin main
 ```
@@ -182,7 +182,7 @@ Battle-tested on 9,500+ documents.
 
 ### 1. Add README Badge (optional)
 ```markdown
-[![Tests](https://github.com/YOUR_USERNAME/universal-crawler-template/actions/workflows/test_crawlers.yml/badge.svg)](https://github.com/YOUR_USERNAME/universal-crawler-template/actions)
+[![Tests](https://github.com/rrrr022/universal-crawler-template/actions/workflows/test_crawlers.yml/badge.svg)](https://github.com/rrrr022/universal-crawler-template/actions)
 ```
 
 ### 2. Create First Release

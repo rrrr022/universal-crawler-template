@@ -3,8 +3,8 @@
 ## Pre-Launch (Do This First)
 
 - [ ] Review README.md - does it represent your vision?
-- [ ] Check all 4 example configs work (pharma, legal, financial, EPA)
-- [ ] Update contact@freedomcarbon.com if email is different
+- [ ] Check all 4 example configs work (pharma, legal, financial, wastewater)
+- [ ] Update contact links if needed
 - [ ] Test one example locally (optional but recommended)
 
 ## GitHub Repository Creation
@@ -28,7 +28,7 @@ cd C:\Users\rrrr0\OneDrive\Desktop\Sales\universal_crawler_template
 git init
 git add .
 git commit -m "feat: Universal Crawler Framework v1.0.0 - Production-proven at 1+ TB scale"
-git remote add origin https://github.com/YOUR_USERNAME/universal-crawler-template.git
+git remote add origin https://github.com/rrrr022/universal-crawler-template.git
 git branch -M main
 git push -u origin main
 ```
@@ -45,10 +45,10 @@ git push -u origin main
   - web-scraping, async-crawler, web-crawler, data-collection
   - rag-indexing, vector-database, semantic-search, production-ready
   - terabyte-scale, pharmaceutical-research, legal-discovery
-  - financial-intelligence, epa-compliance, python-crawler
+  - financial-intelligence, regulatory-compliance, python-crawler
   - aiohttp, beautifulsoup, sentence-transformers, gpu-accelerated
 
-- [ ] Update About section URL: Add link to your EPA platform if available
+- [ ] Update About section URL: Add link to your compliance platform if available
 
 ## Create First Release
 
@@ -110,7 +110,7 @@ git push origin v1.0.0
   
 - [ ] Write blog post on your company site
   - "How We Built a Terabyte-Scale Crawler"
-  - "Open-Sourcing Our EPA Intelligence Infrastructure"
+  - "Open-Sourcing Our Compliance Intelligence Infrastructure"
   
 - [ ] Update LinkedIn profile:
   - Add to Projects section
@@ -136,7 +136,7 @@ git push origin v1.0.0
 
 - [ ] Add "Request Demo" link to README that tracks conversions
 - [ ] Set up email automation for demo requests
-- [ ] Create simple landing page for EPA platform (if not exists)
+- [ ] Create simple landing page for compliance platform (if not exists)
 - [ ] Add tracking pixels to GitHub traffic (if legal/ethical)
 - [ ] Monitor who's forking/starring (potential customers)
 

@@ -38,7 +38,7 @@ Built from battle-tested infrastructure that crawled 9,500+ documents across 139
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/universal-crawler-template.git
+git clone https://github.com/rrrr022/universal-crawler-template.git
 cd universal-crawler-template
 
 # Create virtual environment
@@ -423,7 +423,7 @@ Full documentation: [docs/](docs/)
 
 ## 🙏 Acknowledgments
 
-- Built from EPA Lead Intelligence Platform crawler infrastructure
+- Built from real-world production crawler infrastructure
 - Powered by `aiohttp`, `BeautifulSoup4`, `sentence-transformers`
 - Inspired by Scrapy, Colly, and Common Crawl
 

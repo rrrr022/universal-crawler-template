@@ -41,7 +41,6 @@ crawl_stats.json
 
 # Cache directories
 .cache/
-.cache_epa/
 __pycache__/
 *.pyc
 

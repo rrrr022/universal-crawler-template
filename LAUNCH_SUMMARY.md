@@ -12,7 +12,7 @@ Your universal crawler template is **production-ready** for GitHub launch with c
 - Universal framework positioning ("Bring Your Own Keywords - Scale to Terabytes")
 - **Prominent commercial services section** with Rick Ross/Freedom Carbon Services LLC
 - Real production metrics (1+ TB, 9,506 files, 22-26x efficiency)
-- Industry versatility examples (pharma, legal, financial, EPA)
+- Industry versatility examples (pharma, legal, financial, wastewater)
 - Quick start guide for any domain
 
 ### 2. **Industry Example Configs** ✅
@@ -20,7 +20,7 @@ Your universal crawler template is **production-ready** for GitHub launch with c
 - **examples/pharma_research.yaml** - FDA compliance, clinical trials, drug safety
 - **examples/legal_discovery.yaml** - Case law, court filings, securities litigation
 - **examples/financial_intel.yaml** - SEC filings, M&A, earnings analysis
-- **examples/epa_wastewater.yaml** - Already exists (139 technologies, 1+ TB proven)
+- **examples/wastewater_tech.yaml** - Already exists (139 technologies, 1+ TB proven)
 
 ### 3. **GITHUB_SETUP.md** ✅ (Complete Launch Guide)
 - Repository description (SEO-optimized, 160 chars)
@@ -42,13 +42,13 @@ Your universal crawler template is **production-ready** for GitHub launch with c
 ✅ **Documentation** - How to use for any industry  
 
 ### What You Monetize (Private):
-💰 **EPA Platform** - 1+ TB pre-built dataset ($500-5K/month SaaS)  
+💰 **Compliance Platform** - 1+ TB pre-built dataset ($500-5K/month SaaS)  
 💰 **Custom Implementation** - Configure for their industry ($50K-250K)  
 💰 **Managed Crawling** - Run infrastructure for them ($2K-10K/month)  
 💰 **Training/Consulting** - Teach terabyte-scale operations ($5K-20K/day)  
 
 ### Your Competitive Moat:
-🔒 **1+ TB EPA data** - 6-12 months to replicate  
+🔒 **1+ TB compliance data** - 6-12 months to replicate  
 🔒 **Domain expertise** - 139 wastewater technologies taxonomy  
 🔒 **Proven configurations** - Battle-tested settings  
 🔒 **Operational knowledge** - Production lessons learned  
@@ -73,7 +73,7 @@ Your universal crawler template is **production-ready** for GitHub launch with c
    .\setup_github.ps1
    
    # Or manual push:
-   git remote add origin https://github.com/YOUR_USERNAME/universal-crawler-template.git
+   git remote add origin https://github.com/rrrr022/universal-crawler-template.git
    git branch -M main
    git push -u origin main
    ```
@@ -99,12 +99,12 @@ Your universal crawler template is **production-ready** for GitHub launch with c
 
 ## 🎯 Value Proposition (Your Elevator Pitch)
 
-> **"Universal web crawler proven at 1+ TB scale. Bring your own keywords - we provide production infrastructure. Built it for EPA wastewater compliance (139 technologies), now available for pharmaceutical, legal, financial, or any domain. Open-source framework + commercial data platform."**
+> **"Universal web crawler proven at 1+ TB scale. Bring your own keywords - we provide production infrastructure. Built it for wastewater compliance (139 technologies), now available for pharmaceutical, legal, financial, or any domain. Open-source framework + commercial data platform."**
 
 ### For Prospects:
 - **"We process terabytes"** = instant credibility
 - **"Universal framework"** = works for their industry
-- **"1+ TB EPA project"** = proven at scale
+- **"1+ TB compliance project"** = proven at scale
 - **"Open-source code"** = can see quality before buying
 
 ### For Hiring:
@@ -126,7 +126,7 @@ Once launched, monitor:
    - Contributors (community building)
 
 2. **Inbound Leads**:
-   - Demo requests for EPA platform
+   - Demo requests for compliance platform
    - Custom implementation inquiries
    - Consulting requests
    - Job applications
@@ -173,8 +173,7 @@ Once launched, monitor:
 
 1. **Review files** in `universal_crawler_template/`
 2. **Update placeholders**:
-   - Replace `YOUR_USERNAME` in GITHUB_SETUP.md with your GitHub username
-   - Replace `contact@freedomcarbon.com` if different
+   - Links already updated for GitHub username
 3. **Test locally** (optional):
    ```bash
    python discovery/enhanced_url_discovery.py --config examples/pharma_research.yaml
@@ -192,7 +191,7 @@ Once launched, monitor:
 ✅ 3 industry examples (pharma, legal, financial)  
 ✅ Complete GitHub launch guide  
 ✅ Professional branding (Rick Ross/Freedom Carbon Services LLC)  
-✅ Competitive moat (1+ TB EPA data + expertise)  
+✅ Competitive moat (1+ TB compliance data + expertise)  
 
 **Framework = Fishing Rod (free, builds credibility)**  
 **Data/Expertise = Fish (monetize via services/platform)**

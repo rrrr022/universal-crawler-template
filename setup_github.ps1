@@ -102,7 +102,7 @@ git commit -m "Initial commit: Universal Crawler Template
 - PowerShell automation scripts
 - Comprehensive documentation
 
-Built from EPA Lead Intelligence Platform crawler infrastructure."
+Built from real-world production crawler infrastructure."
 
 # 5. GitHub setup instructions
 Write-Host "`n" -ForegroundColor Green
@@ -120,7 +120,7 @@ Write-Host "   - Public or Private: Your choice" -ForegroundColor Gray
 Write-Host "   - Do NOT initialize with README (we already have one)" -ForegroundColor Gray
 Write-Host ""
 Write-Host "2. Link and push to GitHub:" -ForegroundColor Cyan
-Write-Host "   git remote add origin https://github.com/YOUR_USERNAME/universal-crawler-template.git" -ForegroundColor Gray
+Write-Host "   git remote add origin https://github.com/rrrr022/universal-crawler-template.git" -ForegroundColor Gray
 Write-Host "   git branch -M main" -ForegroundColor Gray
 Write-Host "   git push -u origin main" -ForegroundColor Gray
 Write-Host ""

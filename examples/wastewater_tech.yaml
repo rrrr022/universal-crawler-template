@@ -2,7 +2,7 @@
 project_name: "Wastewater Technology Research"
 output_dir: "D:\\CrawlData"
 
-# 139 technologies from EPA Lead Intelligence Platform
+# 139 wastewater technologies
 topics:
   - id: "001"
     name: "Bar Screens (Coarse)"
@@ -29,7 +29,6 @@ max_retries: 3
 
 # Discovery settings
 priority_domains:
-  - "epa.gov"
   - "usgs.gov"
   - "awwa.org"
   - "wef.org"
